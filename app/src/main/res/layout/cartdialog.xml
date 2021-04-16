@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:padding="@dimen/_20sdp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/color_cardshape"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:src="@drawable/shoesnike"
+        android:layout_gravity="center"
+        android:id="@+id/dialogImage"/>
+    <TextView
+        android:id="@+id/dialogName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: Rebook Shoe"
+        android:textSize="@dimen/_16ssp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:padding="@dimen/_5sdp"/>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price: $"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/_16ssp"/>
+        <TextView
+            android:padding="@dimen/_5sdp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/_16ssp"
+            android:id="@+id/dialogPrice"/>
+
+    </LinearLayout>
+    <TextView
+        android:padding="@dimen/_5sdp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Size: 5"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="@dimen/_16ssp"
+        android:id="@+id/dialogSize"/>
+    <TextView
+        android:padding="@dimen/_5sdp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color: Alternative"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="@dimen/_16ssp"
+        android:id="@+id/dialogColor"/>
+    <TextView
+        android:padding="@dimen/_5sdp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time: 10am"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="@dimen/_16ssp"
+        android:id="@+id/dialogTimer"/>
+
+    <TextView
+        android:padding="@dimen/_5sdp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date: 11-12-2021"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="@dimen/_16ssp"
+        android:id="@+id/dialogDate"/>
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_10sdp"/>
+
+   <Button
+       android:id="@+id/dialogPurchased"
+       android:layout_width="@dimen/_150sdp"
+       android:layout_height="wrap_content"
+       android:background="@drawable/color_firstcolor"
+       android:text="Purchased"
+       android:textSize="@dimen/_16ssp"
+       android:textStyle="bold"
+       android:textColor="@color/white"
+       android:layout_gravity="center"/>
+
+
+</LinearLayout>
